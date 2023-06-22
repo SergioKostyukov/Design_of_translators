@@ -1,0 +1,10 @@
+PROGRAM PROG;
+LABEL 12, 13, 14, 15;
+
+BEGIN
+12 : GOTO 13 ;
+    LINK VER1, 14 ;
+13 : IN 14 ;
+    LINK VER2, 15 ;
+    OUT 14 ;
+END.
